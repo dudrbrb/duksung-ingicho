@@ -1,0 +1,61 @@
+/* 로그인 form */
+#login{
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 2px solid #ff6565;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+label{
+    width: 150px;
+    min-width: 150px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+input{
+    border: 1px solid rgb(185, 185, 185);
+    width: 200px;
+    font-size: 16px;
+    height: 30px;
+    padding: 0 5px;
+}
+input:hover{
+    border-color: #ffd665;
+}
+input:focus{
+    color:#ff6565;
+    border-color: #ff6565;
+    background-color: #fff;
+}
+small{
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 10px 40px 0 0;
+}
+button[type="submit"]{
+    background-color: #ff6565;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 30px auto 10px;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+button[type="submit"]:hover{
+    background-color: #ee5f5f;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}

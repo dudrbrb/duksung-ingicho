@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터넷기초 과제</title>
+
+    <!-- import css -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/vote.css">
+
+    <!-- set base url -->
+    <base href="/spring-promotion">
+</head>
+<body>
+    <header>
+        <h1>멍멍듀스<span>101</span></h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>당신의 개님에게 투표하세요</h2>
+            <span>투표 완료 시, 실시간 투표 현황이 나타납니다.</span>
+            <div class="vote-wrap">
+                <div>
+                    <input type="radio" name="puppy" id="arong" value="arong">
+                    <label for="arong">홍아롱
+                        <img  for="arong" src="img/puppy/arong3.jpg" />
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="puppy" id="inza" value="inza">
+                    <label for="inza">박인자
+                        <img  for="inza" src="img/puppy/inza3.jpg" />
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="puppy" id="nuri" value="nuri">
+                    <label for="nuri">강누리
+                        <img  for="nuri" src="img/puppy/nuri3.jpg" />
+                    </label>
+                </div>
+
+                <button>투표하기</button>
+            </div>
+            
+        </section>
+
+        <section class="status-wrap">
+            <h3>실시간 투표 현황</h3>
+            <div class="status-container">
+                <div class="dim">
+                    <h4>투표 시 열립니다</h4>
+                </div>
+                <div class="ranking">
+                    <div id="first">
+                        <img  for="arong" src="img/puppy/arong3.jpg" />
+                        <h5>홍아롱</h5>
+                        <p>10표</p>
+                    </div>
+                    <div class="rank-wrap">
+                        <div id="second">
+                            <img  for="arong" src="img/puppy/arong3.jpg" />
+                            <h5>홍아롱</h5>
+                            <p>10표</p>
+                        </div>
+                        <div id="third">
+                            <img  for="arong" src="img/puppy/arong3.jpg" />
+                            <h5>홍아롱</h5>
+                            <p>10표</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/vote.js"></script>
+    
+</body>
+</html>

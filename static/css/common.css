@@ -1,0 +1,174 @@
+/* import font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;500;700;900&display=swap');
+
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: none;
+    cursor: default;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, .font{
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: auto;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    background-color: rgb(255, 253, 244);
+    /* background-image: url('/img/paws.png'); */
+    /* background-size: 200px; */
+}
+body > *{
+    width: 100%;
+}
+main{
+    padding-bottom: 200px;
+}
+
+
+/* header */
+header{
+    padding: 80px 0 50px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.navBtn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    
+}
+.navBtn div{
+    width: 40px;
+    height: 4px;
+    cursor: pointer;
+    background-color: #ff6565;
+}
+.navBtn div+div{
+    margin-top: 6px;
+}
+.back{
+    font-size: 35px;
+    color: #ff6565;
+    text-decoration: none !important;
+    font-family: 'Black Han Sans', sans-serif;
+    cursor: pointer;
+}
+.back::after{
+    content: '';
+}
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    -webkit-text-stroke: 2px #ff6565;
+}
+h1 span{
+    color: #ff6565;
+    -webkit-text-stroke: 0px;
+    font-family: 'Black Han Sans', sans-serif;
+    
+}
+
+/* section */
+section{
+    margin: 0 auto;
+}
+
+/* menu */
+#menu{
+    width: 100%;
+    height: 100%;
+    background-color: #00000089;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+#menu li{
+    list-style: none;
+}
+#menu a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+#menu a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+#menu .closeMenu {
+    margin-top: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+#menu .closeMenu:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* footer */
+footer{
+    background-color: rgb(37, 37, 37);
+    border-top-left-radius: 80px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+footer > *{
+    max-width: 350px;
+    margin: 20px 3%;
+    font-size: 12px;
+    word-break: keep-all;
+    padding: 15px 0;
+    color: #fff;
+}
+footer p {
+    margin-right: 30%;
+    line-height: 20px;
+}
+footer ul{
+    margin-top: 10px;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li+li{
+    margin-top: 5px;
+}
+footer ul li::before{
+    content: '- ';
+}

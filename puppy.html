@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터넷기초 과제</title>
+
+    <!-- import css -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/puppy.css">
+
+    <!-- set base url -->
+    <base href="/spring-promotion">
+</head>
+<body>
+    <header>
+        <h1>나의 <span>관심사</span>를<br>
+            소개합니다!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>개님들 사진 모음</h2>
+            <nav>
+                <ul>
+                    <li name="arong" class="active">아롱</li>
+                    <li name="inza">인자</li>
+                    <li name="nuri">누리</li>
+                </ul>
+            </nav>
+
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong4.jpg" />
+                    </div>
+                </div>
+            </div>
+    
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/puppy/arong4.jpg" />
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/puppy.js"></script>
+    
+</body>
+</html>

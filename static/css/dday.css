@@ -1,0 +1,18 @@
+.d-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+input{
+    outline: none;
+    border: 1px solid #565656;
+    padding: 10px 30px;
+    margin: 40px 0;
+    font-size: 22px;
+}
+.counter{
+    font-weight: 600;
+    color: #ff6565;
+}

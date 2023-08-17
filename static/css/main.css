@@ -1,0 +1,63 @@
+
+/* prodects list */
+#spring{
+    text-align: center;
+}
+.table-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+h2+p{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+table{
+    margin: 0 auto 150px;
+    max-width: 1400px;
+    width: 80%;
+}
+table, td, th {
+    border : 1px solid #dddddd;
+    border-collapse : collapse;
+    padding: 10px 20px;
+    text-align: center;   
+}
+th{
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff6565;
+}
+td{
+    min-width:150px;
+}
+td img{
+    width:200px;
+    padding-left: 30px;
+}
+td ul, td ul li {
+    text-align: left;
+    margin-left: 20px;
+}
+tr{
+    background-color: #fff;
+}
+tr:hover{
+    background-color: #ffebeb;
+}
+td a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #ff6565;
+}
+td a::after{
+    content: ' →';
+}
+td a:hover{
+    text-decoration: underline;
+    text-underline-position:under;
+}

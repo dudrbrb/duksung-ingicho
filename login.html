@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터넷기초 과제</title>
+
+    <!-- import css -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <h1>나의 <span>관심사</span>를<br>
+        소개합니다!</h1>
+    </header>
+
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+
+            <form  name="login" method="post" action="/main">
+                <div>
+                    <label for="id">ID</label>
+                    <input type="text" id="id" name="id">
+                </div>
+                <div>
+                    <label for="pw">PASSWORD</label>
+                    <input type="password" id="pw" name="pw">
+                </div>
+
+                <small>* 아무렇게나 적으시면 됩니다.</small>
+                <button type="submit" value="login">OK</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

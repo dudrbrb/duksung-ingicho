@@ -1,0 +1,28 @@
+.calc-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, select{
+    outline: none;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0 3px;
+}
+.calcBtn{
+    display: block;
+    margin: 30px auto;
+    outline: none;
+    border: 2px solid #ff6565;
+    color: #ff6565;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.result{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
